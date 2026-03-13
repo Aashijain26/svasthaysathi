@@ -4,7 +4,7 @@ import './NavBar.css';
 // import '../Homepage.css'
 
 
-const NavBar = () => {
+const Navbar = () => {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

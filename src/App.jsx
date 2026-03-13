@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/HomePage";   
 import AboutUs from "./pages/AboutUs";   
@@ -6,6 +7,7 @@ import Doctor from "./pages/doctorPage"
 import Band from "./pages/bandpage"
 import Pharma from "./pages/pharmapg"
 import Institute from "./pages/institue"
+
 
 function App() {
   return (
