@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Navbar.css';
+import './NavBar.css';
 // import '../Homepage.css'
 
 
-const Navbar = () => {
+const NavBar = () => {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
