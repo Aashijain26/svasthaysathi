@@ -70,7 +70,7 @@ const Navbar = () => {
           <div className="left-section">
             {/* Logo and Brand Name */}
             <div className="logo-section">
-              <div className="logo">SL</div>
+              <div className="logo">SS</div>
               <a href="#" className="brand-name" onClick={() => handleNavigation('/', 'Home')}>
                 Svasthay Sathi
               </a>
